@@ -1,0 +1,19 @@
+{
+  "name": "eye_care",
+  "version": "1.0.0",
+  "description": "A simple system tray application that reminds you to look away from the screen and blink every 20 mins to prevent strain on eyes.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tray-application",
+    "electron"
+  ],
+  "author": "Karan Dalvi",
+  "license": "MIT",
+  "dependencies": {
+    "node-notifier": "^5.1.2"
+  }
+}
